@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackson-all-1.9.0 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Spring MVC/jars/jackson-all-1.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -8,7 +8,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Registration</title>
-    
+
     <style type="text/css">
         .error{
             color: #dd0000;
@@ -58,5 +58,24 @@
         </table>
     </form:form>
 </div>
+<div id="result"></div>
+
+<script type="text/javascript"
+        src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+    function crunchifyAjax() {
+        $.ajax({
+            url : 'register/ajaxtest',
+            success : function(data) {
+                $('#result').append(data);
+            }
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    var intervalId = 0;
+    intervalId = setInterval(crunchifyAjax, 3000);
+</script>
 </body>
 </html>

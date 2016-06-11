@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mangopay2-java-sdk-1.0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Spring MVC/lib/mangopay2-java-sdk-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

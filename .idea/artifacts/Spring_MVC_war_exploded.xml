@@ -11,10 +11,17 @@
           <element id="library" level="project" name="Spring-4.2.5.RELEASE" />
           <element id="library" level="project" name="Spring MVC-4.2.5.RELEASE" />
           <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
-          <element id="library" level="application" name="mysql-connector-java-5.1.6" />
           <element id="library" level="project" name="Hibernate Validator-5.0.1" />
-          <element id="library" level="application" name="common-lang3" />
-          <element id="library" level="application" name="taglibs-standard-jstlel-1.2.5" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-databind:2.6.4" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.6" />
+          <element id="library" level="application" name="eclipselink-2.2.0" />
+          <element id="library" level="project" name="aopalliance-1.0" />
+          <element id="library" level="application" name="jstl 2" />
+          <element id="library" level="project" name="mangopay2-java-sdk-1.0.6" />
+          <element id="library" level="application" name="common-lang3 (2)" />
+          <element id="library" level="project" name="jackson-all-1.9.0 (2)" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="junit-4.4" />
         </element>
       </element>
     </root>

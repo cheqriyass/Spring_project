@@ -1,0 +1,56 @@
+
+.section {
+  position: relative;
+  padding: 35px 0;
+}
+.section .background-image {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.section .background-image.background-image-fixed {
+  background-attachment: fixed;
+}
+.section-primary {
+  background-color: #0074d9 !important;
+  color: #ffffff;
+}
+.section-primary .background-image {
+  opacity: 0.5;
+}
+
+
+.text-info {
+  color: #4dc1ff;
+}
+
+
+
+/* text-inverse is deprecated */
+.text-inverse {
+  color: #ffffff;
+}
+
+
+a.text-info:hover {
+  color: #1aafff;
+}
+
+
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+
+
